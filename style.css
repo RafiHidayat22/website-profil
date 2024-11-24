@@ -1,0 +1,159 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    max-width: 1200px;
+}
+
+/* Header */
+header {
+    background: #00337C;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 10px 0 20px;
+    font-size: 1.2em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+ 
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white; /* Warna teks tautan navbar */
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Sections */
+#about {
+    background: #03C988;
+    color: #fff; /* Warna teks putih agar terlihat kontras */
+    padding: 50px 0;
+    text-align: center;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.profile-photo {
+    width: 4cm;  /* Lebar 4 cm dalam pixel */
+    height: 6cm; /* Tinggi 6 cm dalam pixel */
+    border-radius: 10%; /* Membuat foto menjadi bulat */
+    object-fit: cover; /* Menjaga agar gambar tetap terpotong dengan proporsi yang benar */
+    border: 5px solid white; /* Border putih di sekitar gambar */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Memberikan bayangan untuk efek 3D */
+    margin-bottom: 20px; /* Memberikan jarak bawah */
+}
+
+
+
+section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+
+
+#experience .experience-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.experience-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.experience-card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.experience-card h3 {
+    margin: 10px 0;
+}
+
+#contact {
+    padding: 50px 0;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+#contact h2 {
+    margin-bottom: 20px;
+}
+
+#contact a {
+    color: #333; /* Warna link */
+    text-decoration: none; /* Menghapus garis bawah */
+    font-size: 1.2rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px; /* Jarak antara ikon dan teks */
+    transition: color 0.3s ease;
+}
+
+#contact a:hover {
+    color: #6256CA; /* Warna link saat hover */
+    text-decoration: none; /* Menghilangkan garis bawah saat hover */
+}
+
+.contact-icon {
+    width: 20px;  /* Ukuran ikon */
+    height: 20px;
+    object-fit: cover;
+}
+
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
